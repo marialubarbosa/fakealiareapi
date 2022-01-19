@@ -1,234 +1,132 @@
 {
-    "account": [ 
-        { 
-      
-          "id": "08782916-10a0-43cb-8a21-11f6c13a5a76", 
-      
-          "name": "teste", 
-      
-          "businessUnit": { 
-      
-            "businessUnit": "93502995000170", 
-      
-            "economicGroup": null 
-      
-          }, 
-      
-          "createdAt": "0001-01-01T00:00:00+00:00", 
-      
-          "active": true, 
-      
-          "blocked": true 
-      
-        }, 
-      
-        { 
-      
-          "id": "eeacfb36-4f99-48cc-8a39-1b117f7fdd1c", 
-      
-          "name": "teste2", 
-      
-          "businessUnit": { 
-      
-            "businessUnit": "93502995000170", 
-      
-            "economicGroup": "Matriz" 
-      
-          }, 
-      
-          "createdAt": "0001-01-01T00:00:00+00:00", 
-      
-          "active": true, 
-      
-          "blocked": true 
-      
-        }, 
-      
-        { 
-      
-          "id": "46e49e59-c6ff-4b5a-847e-f156ec5a0a92", 
-      
-          "name": "Teste50", 
-      
-          "businessUnit": { 
-      
-            "businessUnit": "93502995000170", 
-      
-            "economicGroup": "Matriz" 
-      
-          }, 
-      
-          "createdAt": "0001-01-01T00:00:00+00:00", 
-      
-          "active": true, 
-      
-          "blocked": true 
-      
-        }, 
-      
-        { 
-      
-          "id": "32a88855-7991-412f-aa2d-fa60ab3a7b8e", 
-      
-          "name": "Teste501", 
-      
-          "businessUnit": { 
-      
-            "businessUnit": "93502995000170", 
-      
-            "economicGroup": "Matriz" 
-      
-          }, 
-      
-          "createdAt": "0001-01-01T00:00:00+00:00", 
-      
-          "active": true, 
-      
-          "blocked": true 
-      
-        } 
-      
-    ],
-    "account-byid": [ 
-
-        { 
-    
-            "id": "08782916-10a0-43cb-8a21-11f6c13a5a76", 
-    
-            "active": true, 
-    
-            "blocked": true, 
-    
-            "legalName": "Empresa A LTDA", 
-    
-            "name": "Empresa A", 
-    
-            "tenant": "152340934-34SDFKSDFSN", 
-    
-            "document": "00000000000", 
-    
-            "segment": "produtor", 
-    
-            "address": { 
-    
-                "countryId": "sd51c651scd-sd5c1s1dc-s5d1c56s1d-s51dc5s41d", 
-    
-                "country": "Brasil", 
-    
-                "zipCode": "00000000", 
-    
-                "address": "Rua Fulana de Tal", 
-    
-                "number": "00", 
-    
-                "complement": "string a definir", 
-    
-                "district": "nome do bairro", 
-    
-                "cityId": "5sd16a-s5dc1a-165sa1d65c-1s51dc6", 
-    
-                "city": "Nome da cidade", 
-    
-                "ufId": "1cas56d-sdc65a1s-sda1c65as-sd6c51", 
-    
-                "uf": "Nome do estado" 
-    
-            }, 
-    
-            "contact": { 
-    
-                "phoneMobile": "5500000000000", 
-    
-                "notificationSMS": true, 
-    
-                "phoneFixed": "5500000000000" 
-    
-            }, 
-    
-            "admin":{ 
-    
-                "id": "sdc14as84d-sd45c6as-s4dc654asd", 
-    
-                "email": "fulano@fulano.com", 
-    
-                "name": "Fulano da Silva" 
-    
-            }, 
-    
-            "financeAdmin":{ 
-    
-                "id": "56ds1c65a-sd1c561asd-s1d5c6a1sd-1sd5c", 
-    
-                "email": "ciclano@ciclano.com", 
-    
-                "name": "Ciclano da Silva" 
-    
-            } 
-    
-        } 
-    
-    ],
-    "business-unit": [ 
-
-        { 
-    
-            "id": "c51as65d1c-sdc5a94-156a1dsc65-156adsc", 
-    
-            "legalName": "Empresa A LTDA", 
-    
-            "name": "Empresa A", 
-    
-            "document": "00000000000", 
-    
-            "segment": "string a definir", 
-    
-            "city": "Sáo Paulo", 
-    
-            "status": true, 
-    
-            "block": false 
-    
-        } 
-    
-    ] ,
-    "user-admin": [ 
-
-        { 
-    
-            "id": "cas5d6-1c56d-sad65cas6-1ds15ca", 
-    
-            "name": "Nome do usuário", 
-    
-            "email": "email@email.com" 
-    
-        } 
-    
-    ],
-    "user": [ 
-
-        {    
-    
-            "people": "00000000000", 
-    
-            "email": "email@email.com", 
-    
-            "confirmedEmail": true, 
-    
-            "adminUser": true, 
-    
-            "financeUser": false, 
-    
-            "businessUnit": "00000000000000", 
-    
-            "produto": "Nome do produto", 
-    
-            "status":  true, 
-    
-            "block": false, 
-    
-            "createdAt": "2021-01-08 09:25:15" 
-    
-        } 
-    
-    ]   
+  "account": [
+    {
+      "id": "08782916-10a0-43cb-8a21-11f6c13a5a76",
+      "name": "teste",
+      "businessUnit": {
+        "businessUnit": "93502995000170",
+        "economicGroup": null
+      },
+      "createdAt": "0001-01-01T00:00:00+00:00",
+      "active": true,
+      "blocked": true
+    },
+    {
+      "id": "eeacfb36-4f99-48cc-8a39-1b117f7fdd1c",
+      "name": "teste2",
+      "businessUnit": {
+        "businessUnit": "93502995000170",
+        "economicGroup": "Matriz"
+      },
+      "createdAt": "0001-01-01T00:00:00+00:00",
+      "active": true,
+      "blocked": true
+    },
+    {
+      "id": "46e49e59-c6ff-4b5a-847e-f156ec5a0a92",
+      "name": "Teste50",
+      "businessUnit": {
+        "businessUnit": "93502995000170",
+        "economicGroup": "Matriz"
+      },
+      "createdAt": "0001-01-01T00:00:00+00:00",
+      "active": true,
+      "blocked": true
+    },
+    {
+      "id": "32a88855-7991-412f-aa2d-fa60ab3a7b8e",
+      "name": "Teste501",
+      "businessUnit": {
+        "businessUnit": "93502995000170",
+        "economicGroup": "Matriz"
+      },
+      "createdAt": "0001-01-01T00:00:00+00:00",
+      "active": true,
+      "blocked": true
+    },
+    {
+      "id": "08782916-10a0-43cb-8a21-11f6c13a5a89",
+      "name": "testemaria",
+      "businessUnit": {
+        "businessUnit": "93502995000190",
+        "economicGroup": null
+      },
+      "createdAt": "0001-01-01T00:00:00+00:00",
+      "active": true,
+      "blocked": true
+    }
+  ],
+  "account-byid": [
+    {
+      "id": "08782916-10a0-43cb-8a21-11f6c13a5a76",
+      "active": true,
+      "blocked": true,
+      "legalName": "Empresa A LTDA",
+      "name": "Empresa A",
+      "tenant": "152340934-34SDFKSDFSN",
+      "document": "00000000000",
+      "segment": "produtor",
+      "address": {
+        "countryId": "sd51c651scd-sd5c1s1dc-s5d1c56s1d-s51dc5s41d",
+        "country": "Brasil",
+        "zipCode": "00000000",
+        "address": "Rua Fulana de Tal",
+        "number": "00",
+        "complement": "string a definir",
+        "district": "nome do bairro",
+        "cityId": "5sd16a-s5dc1a-165sa1d65c-1s51dc6",
+        "city": "Nome da cidade",
+        "ufId": "1cas56d-sdc65a1s-sda1c65as-sd6c51",
+        "uf": "Nome do estado"
+      },
+      "contact": {
+        "phoneMobile": "5500000000000",
+        "notificationSMS": true,
+        "phoneFixed": "5500000000000"
+      },
+      "admin": {
+        "id": "sdc14as84d-sd45c6as-s4dc654asd",
+        "email": "fulano@fulano.com",
+        "name": "Fulano da Silva"
+      },
+      "financeAdmin": {
+        "id": "56ds1c65a-sd1c561asd-s1d5c6a1sd-1sd5c",
+        "email": "ciclano@ciclano.com",
+        "name": "Ciclano da Silva"
+      }
+    }
+  ],
+  "business-unit": [
+    {
+      "id": "c51as65d1c-sdc5a94-156a1dsc65-156adsc",
+      "legalName": "Empresa A LTDA",
+      "name": "Empresa A",
+      "document": "00000000000",
+      "segment": "string a definir",
+      "city": "Sáo Paulo",
+      "status": true,
+      "block": false
+    }
+  ],
+  "user-admin": [
+    {
+      "id": "cas5d6-1c56d-sad65cas6-1ds15ca",
+      "name": "Nome do usuário",
+      "email": "email@email.com"
+    }
+  ],
+  "user": [
+    {
+      "people": "00000000000",
+      "email": "email@email.com",
+      "confirmedEmail": true,
+      "adminUser": true,
+      "financeUser": false,
+      "businessUnit": "00000000000000",
+      "produto": "Nome do produto",
+      "status": true,
+      "block": false,
+      "createdAt": "2021-01-08 09:25:15"
+    }
+  ]
 }
